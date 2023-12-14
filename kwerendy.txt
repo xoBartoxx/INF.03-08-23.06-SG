@@ -1,0 +1,4 @@
+Zapytanie 1: SELECT nazwa FROM towary WHERE promocja = 1
+Zapytanie 2: SELECT cena FROM towary WHERE id = 10
+Zapytanie 3: SELECT COUNT(towary.id) AS "liczba_towarow", dostawcy.id, dostawcy.nazwa FROM dostawcy JOIN towary ON dostawcy.id = towary.idDostawcy GROUP BY dostawcy.nazwa
+Zapytanie 4: ALTER TABLE `dostawcy` ADD `informacje` TEXT NOT NULL AFTER `adres`;
