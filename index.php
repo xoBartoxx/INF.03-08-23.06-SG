@@ -91,7 +91,7 @@
 		
 		
 		<footer>
-			<h4>Autor strony: 00000000</h4>
+			<h4>Autor strony: xoBartoxx</h4>
 		</footer>
 	
 	</body>
